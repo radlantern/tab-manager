@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle tab-manager",
+        "command": "tab-manager:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "tab-manager",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "tab-manager:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
